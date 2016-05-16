@@ -61,7 +61,7 @@ public class CommonQuestionFragment extends Fragment {
       @Override
       public void onGroupExpand(int i) {
 
-        //这里写怎么改变剪头方向，待续
+        //这里写怎么改变箭头方向，待续
 
       }
     });

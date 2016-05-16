@@ -23,6 +23,7 @@ public class FeedbackActivity extends FragmentActivity {
   private TabLayout mTabLayout;
   private CommonQuestionFragment mfragment1;
   private CommitFeedbackFragment mfragment2;
+  private CommitFeedbackWithImageFragment mfragment3;
   //页面列表
   private ArrayList<Fragment> fragmentList;
   //标题列表
@@ -39,10 +40,11 @@ public class FeedbackActivity extends FragmentActivity {
 
     mfragment1 = new CommonQuestionFragment();
     mfragment2 = new CommitFeedbackFragment();
+    mfragment3 = new CommitFeedbackWithImageFragment();
 
     fragmentList = new ArrayList<Fragment>();
     fragmentList.add(mfragment1);
-    fragmentList.add(mfragment2);
+    fragmentList.add(mfragment3);
 
     titleList.add("常见问题");
     titleList.add("提交反馈");
